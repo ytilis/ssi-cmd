@@ -1,0 +1,28 @@
+{
+  "name": "ssi-cmd",
+  "version": "0.1.0",
+  "description": "Command line tool to call ssi npm package",
+  "main": "index.js",
+  "bin": {
+    "ssi": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ssi",
+    "server",
+    "side",
+    "includes",
+    "cli"
+  ],
+  "author": "Yury Tilis",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "chokidar": "^2.0.0",
+    "commander": "^2.12.2",
+    "rimraf": "^2.6.2",
+    "ssi": "^0.3.0"
+  }
+}
