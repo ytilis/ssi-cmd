@@ -9,15 +9,25 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "license": "MIT",
+  "author": {
+    "name": "Yury Tilis",
+    "email": "ytilis@gmail.com",
+    "url": "http://yury.tilis.net/"
+  },
+  "homepage": "https://www.npmjs.com/package/ssi-cmd",
   "keywords": [
+    "cli",
     "ssi",
-    "server",
-    "side",
-    "includes",
-    "cli"
+    "server side includes"
   ],
-  "author": "Yury Tilis",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ytilis/ssi-cmd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ytilis/ssi-cmd/issues"
+  },
   "dependencies": {
     "chalk": "^2.3.0",
     "chokidar": "^2.0.0",
