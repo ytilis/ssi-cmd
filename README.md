@@ -1,6 +1,5 @@
 # ssi-cmd
-
-## Command line tool to call ssi npm package
+Command line tool to call the `ssi` npm package
 
 ### Installation
 ```
